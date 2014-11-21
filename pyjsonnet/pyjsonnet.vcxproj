@@ -90,6 +90,22 @@
       <Project>{a3694e15-739e-495b-abc3-87adc8f9fd42}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="jsonnet_test_file.py">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </None>
+    <None Include="jsonnet_test_snippet.py" />
+  </ItemGroup>
+  <ItemGroup>
+  <Content Include="jsonnet_test_file.py">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="jsonnet_test_snippet.py">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

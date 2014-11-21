@@ -19,4 +19,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="jsonnet_test_snippet.py">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="jsonnet_test_file.py">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
