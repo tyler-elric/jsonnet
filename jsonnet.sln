@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjsonnet", "libjsonnet\jsonnet.vcxproj", "{A3694E15-739E-495B-ABC3-87ADC8F9FD42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyjsonnet", "pyjsonnet\pyjsonnet.vcxproj", "{8280F904-209D-460B-9587-44D58D8056F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsonnetsnippet", "jsonnetsnippet\jsonnetsnippet.vcxproj", "{E8B7840E-72EC-41B4-BCE1-5D4CC163C548}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsonnetfile", "jsonnetfile\jsonnetfile.vcxproj", "{2ACC5BF9-35EB-49EE-87E2-CD8FEFF28DAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsonnet", "jsonnet_\jsonnet_.vcxproj", "{FAC850F8-F219-4F7B-89D0-6E74D7D4C3F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3694E15-739E-495B-ABC3-87ADC8F9FD42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3694E15-739E-495B-ABC3-87ADC8F9FD42}.Debug|Win32.Build.0 = Debug|Win32
+		{A3694E15-739E-495B-ABC3-87ADC8F9FD42}.Release|Win32.ActiveCfg = Release|Win32
+		{A3694E15-739E-495B-ABC3-87ADC8F9FD42}.Release|Win32.Build.0 = Release|Win32
+		{8280F904-209D-460B-9587-44D58D8056F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8280F904-209D-460B-9587-44D58D8056F2}.Debug|Win32.Build.0 = Debug|Win32
+		{8280F904-209D-460B-9587-44D58D8056F2}.Release|Win32.ActiveCfg = Release|Win32
+		{8280F904-209D-460B-9587-44D58D8056F2}.Release|Win32.Build.0 = Release|Win32
+		{E8B7840E-72EC-41B4-BCE1-5D4CC163C548}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8B7840E-72EC-41B4-BCE1-5D4CC163C548}.Debug|Win32.Build.0 = Debug|Win32
+		{E8B7840E-72EC-41B4-BCE1-5D4CC163C548}.Release|Win32.ActiveCfg = Release|Win32
+		{E8B7840E-72EC-41B4-BCE1-5D4CC163C548}.Release|Win32.Build.0 = Release|Win32
+		{2ACC5BF9-35EB-49EE-87E2-CD8FEFF28DAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2ACC5BF9-35EB-49EE-87E2-CD8FEFF28DAA}.Debug|Win32.Build.0 = Debug|Win32
+		{2ACC5BF9-35EB-49EE-87E2-CD8FEFF28DAA}.Release|Win32.ActiveCfg = Release|Win32
+		{2ACC5BF9-35EB-49EE-87E2-CD8FEFF28DAA}.Release|Win32.Build.0 = Release|Win32
+		{FAC850F8-F219-4F7B-89D0-6E74D7D4C3F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAC850F8-F219-4F7B-89D0-6E74D7D4C3F0}.Debug|Win32.Build.0 = Debug|Win32
+		{FAC850F8-F219-4F7B-89D0-6E74D7D4C3F0}.Release|Win32.ActiveCfg = Release|Win32
+		{FAC850F8-F219-4F7B-89D0-6E74D7D4C3F0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
